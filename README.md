@@ -1,6 +1,6 @@
 # kokoa clone 2020
 
-2021-01-04 My first clone coding start!
+2021-01-04 My first Clone project started!
 클론코딩 목표
 
 1. 순수 html과 css 으로 반응형 페이지 작성
