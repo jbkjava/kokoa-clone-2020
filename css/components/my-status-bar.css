@@ -1,0 +1,38 @@
+.status-section {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.status-section div {
+  width: 33%;
+  font-size: 13px;
+  font-weight: 600;
+
+  /* font-weight ( 400 600 400 ) */
+}
+
+.status-section .status-section__network {
+  display: flex;
+  align-items: center;
+}
+
+.status-section .status-section__network .fa-wifi {
+  margin-left: 4px;
+}
+
+.status-section .status-section__time {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+}
+
+.status-section .status-section__battery {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-section .status-section__battery .fa-battery-full {
+  margin: 0px 3px;
+}

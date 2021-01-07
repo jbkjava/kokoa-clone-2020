@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to KokoaTalk</title>
+    <link rel="stylesheet" href="css/my-index.css" />
+  </head>
+  <body>
+    <section class="splashscreen">
+      <i class="fas fa-comment fa-6x"></i>
+    </section>
+
+    <section class="status-section">
+      <div class="status-section__network">
+        <span>No Service</span>
+        <i class="fas fa-wifi fa-sm"></i>
+      </div>
+      <div class="status-section__time">
+        <span>18:43</span>
+      </div>
+      <div class="status-section__battery">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt fa-sm"></i>
+      </div>
+    </section>
+
+    <header class="header">
+      <h1 class="header__title">Welcome to KokoaTalk</h1>
+      <p class="header__text">
+        If you have a Kokoa Account,<br />
+        log in with email or phone number.
+      </p>
+    </header>
+
+    <section class="login-section">
+      <form action="#" class="login-section__form">
+        <div class="login-section__form__fields">
+          <input
+            name="userid"
+            type="text"
+            placeholder="Email or phone number"
+          />
+          <input name="userpw" type="password" placeholder="Password" />
+        </div>
+
+        <div class="login-section__form__submitBtns">
+          <input
+            type="submit"
+            value="Log In"
+            class="login-section__form__submitBtns__login login-section__form__submitBtns--actionbtn"
+          />
+          <!-- <input type="button" value="Sign Up" /> -->
+          <a
+            href="#"
+            class="login-section__form__submitBtns__signup login-section__form__submitBtns--actionbtn"
+            >Sign Up</a
+          >
+        </div>
+      </form>
+      <a href="#">Find Kokoa Account or Password</a>
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/12c3b3e85d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
